@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pari o Dispari</title>
+</head>
+<body>
+    <h1>Pari o Dispari</h1>
+    <label for="scelta">Scegli pari o dispari:</label>
+    <select id="scelta">
+        <option value="pari">Pari</option>
+        <option value="dispari">Dispari</option>
+    </select>
+    <label for="numero">Inserisci un numero da 1 a 5:</label>
+    <input type="number" id="numero" min="1" max="5">
+    <button onclick="gioca()">Gioca</button>
+    <p id="risultato"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
